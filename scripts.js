@@ -11,7 +11,7 @@ $(document).ready(function() {
 
             for (var i = 0; i < rows.length; i++) {
                 var row = $("<tr>");
-                for (var j = 0; j < rows[i].length; j++) {
+                for (var j = 0; j < 4; j++) { // alterado de rows[i].length para 4
                     var cell = $("<td>");
                     cell.text(rows[i][j]);
                     row.append(cell);
